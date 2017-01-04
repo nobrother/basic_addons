@@ -1,0 +1,56 @@
+id,name,code,sign,company_id/id,info,parent_id/id,sequence,tax_percentage,tax_code_type
+_account_tax_code_your_company,Your Company,,1,base.main_company,,,0,0,
+_account_tax_code_tax_bases,Tax Bases,,1,base.main_company,,_account_tax_code_your_company,0,0,
+_account_tax_code_tax_balance_to_pay,Tax Balance to Pay,,1,base.main_company,,_account_tax_code_your_company,0,0,
+_account_tax_code_tax_paid,Tax Paid,,1,base.main_company,,_account_tax_code_tax_balance_to_pay,0,0,
+_account_tax_code_base_of_taxable_sales,Base of Taxable Sales,,1,base.main_company,,_account_tax_code_tax_bases,0,0,
+_account_tax_code_tax_received,Tax Received,,-1,base.main_company,,_account_tax_code_tax_balance_to_pay,0,0,
+_account_tax_code_taxable_purchases_base,Taxable Purchases Base,,1,base.main_company,,_account_tax_code_tax_bases,0,0,
+_account_tax_code_ajp,AJP - Input Tax: Bad debt & Other Adjustment (6%),AJP,1,base.main_company,,_account_tax_code_tax_paid,0,6,Input Tax
+_account_tax_code_ajpb,AJPB -  Input Tax: Bad debt & Other Adjustment Base (6%),AJPB,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,6,Base Amount
+_account_tax_code_ajs,AJS - Output Tax: Bad debt & Other Adjustment (6%),AJS,1,base.main_company,,_account_tax_code_tax_received,0,6,Output Tax
+_account_tax_code_ajsb,AJSB -  Output Tax: Bad debt & Other Adjustment Base (6%),AJSB,1,base.main_company,,_account_tax_code_base_of_taxable_sales,0,6,Base Amount
+_account_tax_code_bl,BL - Blocked Input Tax (6%),BL,1,base.main_company,,_account_tax_code_tax_paid,0,6,Block Input Tax
+_account_tax_code_blb,BLB - Blocked Input Tax Base (6%),BLB,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,6,Base Amount
+_account_tax_code_ds,DS - Deemed Supplies output tax (6%),DS,1,base.main_company,,_account_tax_code_tax_received,0,6,Output Tax
+_account_tax_code_dsb,DSB - Deemed Supplies output tax Base (6%),DSB,1,base.main_company,,_account_tax_code_base_of_taxable_sales,0,6,Base Amount
+_account_tax_code_ep,EP - Exempt Purchases (0%),EP,1,base.main_company,,_account_tax_code_tax_paid,0,0,Input Tax
+_account_tax_code_epb,EPB - Exempt Purchases Base (0%),EPB,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,0,Base Amount
+_account_tax_code_es,ES - Exempt Supplies (0%),ES,1,base.main_company,,_account_tax_code_tax_received,0,0,Output Tax
+_account_tax_code_es43,ES43 - Incidental Exempt Supplies (0%),ES43,1,base.main_company,,_account_tax_code_tax_received,0,0,Output Tax
+_account_tax_code_es43b,ES43B - Incidental Exempt Supplies Base (0%),ES43B,1,base.main_company,,_account_tax_code_base_of_taxable_sales,0,0,Base Amount
+_account_tax_code_esb,ESB - Exempt Supplies Base (0%),ESB,1,base.main_company,,_account_tax_code_base_of_taxable_sales,0,0,Base Amount
+_account_tax_code_gp,GP - Group Registration Purchases (0%),GP,1,base.main_company,,_account_tax_code_tax_paid,0,0,Input Tax
+_account_tax_code_gpb,GPB - Group Registration Purchases Base (0%),GPB,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,0,Base Amount
+_account_tax_code_gs,GS - Group Registration Supplies (0%),GS,1,base.main_company,,_account_tax_code_tax_received,0,0,Output Tax
+_account_tax_code_gsb,GSB - Group Registration Supplies Base (0%),GSB,1,base.main_company,,_account_tax_code_base_of_taxable_sales,0,0,Base Amount
+_account_tax_code_im,IM - Imported Goods (6%),IM,1,base.main_company,,_account_tax_code_tax_paid,0,6,Input Tax
+_account_tax_code_imb,IMB - Imported Goods Base (6%),IMB,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,6,Base Amount
+my_imported_goods.tax_code_IMGDS,IM-GDS-Overseas Imported Goods (0%),IMGDS,1,base.main_company,,_account_tax_code_tax_paid,0,0,Input Tax
+my_imported_goods.tax_code_IMGDSB,IM-GDSB-Overseas Imported Goods Base (0%),IMGDSB,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,0,Base Amount
+_account_tax_code_is,IS - Special GST Scheme imported goods (0%),IS,1,base.main_company,,_account_tax_code_tax_paid,0,0,Input Tax
+_account_tax_code_isb,ISB - Special GST Scheme imported goods Base (0%),ISB,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,0,Base Amount
+_account_tax_code_nr,NR -Non-GST Registered Supplier Purchases (0%),NR,1,base.main_company,,_account_tax_code_tax_paid,0,0,Input Tax
+_account_tax_code_nrb,NRB -Non-GST Registered Supplier Purchases Base (0%),NRB,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,0,Base Amount
+_account_tax_code_op,OP - Out of Scope Purchases (0%),OP,1,base.main_company,,_account_tax_code_tax_paid,0,0,Input Tax
+_account_tax_code_opb,OPB - Out of Scope Purchases Base (0%),OPB,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,0,Base Amount
+_account_tax_code_os,OS - Out of Scope Supplies (0%),OS,1,base.main_company,,_account_tax_code_tax_received,0,0,Output Tax
+_account_tax_code_osb,OSB - Out of Scope Supplies Base (0%),OSB,1,base.main_company,,_account_tax_code_base_of_taxable_sales,0,0,Base Amount
+_account_tax_code_rs,RS - GST Order Relief Supplies (0%),RS,1,base.main_company,,_account_tax_code_tax_received,0,0,Output Tax
+_account_tax_code_rsb,RSB - GST Order Relief Supplies Base (0%),RSB,1,base.main_company,,_account_tax_code_base_of_taxable_sales,0,0,Base Amount
+_account_tax_code_sr,SR - Standard Rated Supplies (6%),SR,1,base.main_company,,_account_tax_code_tax_received,0,6,Output Tax
+_account_tax_code_srb,SRB - Standard Rated Supplies Base (6%),SRB,1,base.main_company,,_account_tax_code_base_of_taxable_sales,0,6,Base Amount
+_account_tax_code_tx,TX - Standard Rated Purchases (6%),TX,1,base.main_company,,_account_tax_code_tax_paid,0,6,Input Tax
+_account_tax_code_txb,TXB - Standard Rated Purchases Base (6%),TXB,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,6,Base Amount
+_account_tax_code_tx-e43,TX-E43 - Expenditure directly for Incidental Exempt Supplies (6%),TX-E43,1,base.main_company,,_account_tax_code_tax_paid,0,6,Input Tax
+_account_tax_code_tx-e43b,TX-E43B - Expenditure directly for Incidental Exempt Supplies Base (6%),TX-E43B,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,6,Base Amount
+_account_tax_code_tx-n43,TX-N43 - Expenditure directly for Exempt Supplies (6%),TX-N43,1,base.main_company,,_account_tax_code_tax_paid,0,6,Block Input Tax
+_account_tax_code_tx-n43b,TX-N43B - Expenditure directly for Exempt Supplies Base (6%),TX-N43B,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,6,Base Amount
+_account_tax_code_tx-re,TX-RE - Residual input tax expenditure (6%),TX-RE,1,base.main_company,,_account_tax_code_tax_paid,0,6,Input Tax
+_account_tax_code_tx-reb,TX-REB - Residual input tax expenditure Base (6%),TX-REB,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,6,Base Amount
+_account_tax_code_zp,ZP - Zero Rated Purchases (0%),ZP,1,base.main_company,,_account_tax_code_tax_paid,0,0,Input Tax
+_account_tax_code_zpb,ZPB - Zero Rated Purchases Base (0%),ZPB,1,base.main_company,,_account_tax_code_taxable_purchases_base,0,0,Base Amount
+_account_tax_code_zre,ZRE - Export Zero Rated Supplies (0%),ZRE,1,base.main_company,,_account_tax_code_tax_received,0,0,Output Tax
+_account_tax_code_zreb,ZREB - Export Zero Rated Supplies Base (0%),ZREB,1,base.main_company,,_account_tax_code_base_of_taxable_sales,0,0,Base Amount
+_account_tax_code_zrl,ZRL - Local Zero Rated Supplies (0%),ZRL,1,base.main_company,,_account_tax_code_tax_received,0,0,Output Tax
+_account_tax_code_zrlb,ZRLB - Local Zero Rated Supplies Base (0%),ZRLB,1,base.main_company,,_account_tax_code_base_of_taxable_sales,0,0,Base Amount

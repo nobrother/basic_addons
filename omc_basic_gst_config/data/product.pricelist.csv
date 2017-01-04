@@ -1,0 +1,3 @@
+"id","name","type","currency_id/id"
+"purchase.list0","Default Purchase Pricelist","purchase","base.MYR"
+"product.list0","Public Pricelist","sale","base.MYR"

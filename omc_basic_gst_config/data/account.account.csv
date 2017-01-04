@@ -1,0 +1,196 @@
+id,name,user_type/id,code,company_id/id,note,type,is_adv_clearing_acc,is_cash_debtor,has_imgds,currency_mode,parent_id/id
+_account_account_0,Your Company,l10n_my.user_type_view,0,base.main_company,,View,FALSE,FALSE,FALSE,At Date,
+_account_account_1,Balance Sheet,l10n_my.user_type_view,1,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_0
+_account_account_10,Assets,l10n_my.user_type_view,10,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_1
+_account_account_110,Current Assets,l10n_my.user_type_view,110,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_10
+_account_account_1101,Cash & Bank,l10n_my.user_type_view,1101,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_110
+_account_account_110101,Petty Cash,account.data_account_type_cash,110101,base.main_company,,Liquidity,FALSE,FALSE,FALSE,At Date,_account_account_1101
+_account_account_110102,Cash,account.data_account_type_cash,110102,base.main_company,,Liquidity,FALSE,FALSE,FALSE,At Date,_account_account_1101
+_account_account_110103,Bank,account.data_account_type_bank,110103,base.main_company,,Liquidity,FALSE,FALSE,FALSE,At Date,_account_account_1101
+_account_account_1102,Accounts Receivable,l10n_my.user_type_view,1102,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_110
+_account_account_110201,Trade Debtors,l10n_my.user_type_account_receivable,110201,base.main_company,,Receivable,FALSE,FALSE,FALSE,At Date,_account_account_1102
+_account_account_110202,Other Debtors,l10n_my.user_type_account_receivable,110202,base.main_company,,Receivable,FALSE,FALSE,FALSE,At Date,_account_account_1102
+my_cash_sale.cash_debtor,Cash Debtor,l10n_my.user_type_account_receivable,110203,base.main_company,,Receivable,FALSE,TRUE,FALSE,At Date,_account_account_1102
+_account_account_1103,Purchase Tax Receivable,l10n_my.user_type_view,1103,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_110
+_account_account_110301,GST Input Tax (TX),account.data_account_type_asset,110301,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
+_account_account_110302,GST Input Tax (IM),account.data_account_type_asset,110302,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
+_account_account_110303,GST Input Tax (IS),account.data_account_type_asset,110303,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
+_account_account_110304,GST Input Tax (NR),account.data_account_type_asset,110304,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
+_account_account_110305,GST Input Tax (ZP),account.data_account_type_asset,110305,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
+_account_account_110306,GST Input Tax (EP),account.data_account_type_asset,110306,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
+_account_account_110307,GST Input Tax (OP),account.data_account_type_asset,110307,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
+_account_account_110308,GST Input Tax (TXE43),account.data_account_type_asset,110308,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
+_account_account_110309,GST Input Tax (TX-RE),account.data_account_type_asset,110309,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
+_account_account_110310,GST Input Tax (GP),account.data_account_type_asset,110310,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
+_account_account_110311,GST Input Tax (AJP),account.data_account_type_asset,110311,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
+my_imported_goods.IMGDS_tax_account,GST Input Tax (IM-GDS),account.data_account_type_asset,110312,base.main_company,,Regular,FALSE,FALSE,TRUE,At Date,_account_account_1103
+_account_account_1104,Deposit & Prepayment,l10n_my.user_type_view,1104,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_110
+_account_account_110401,Deposits,account.data_account_type_asset,110401,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1104
+_account_account_110402,Prepayment,account.data_account_type_asset,110402,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1104
+_account_account_1105,Stock Inventory,l10n_my.user_type_view,1105,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_110
+_account_account_110501,Stock  ,account.data_account_type_asset,110501,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1105
+_account_account_110502,Changes in Stock,account.data_account_type_asset,110502,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1105
+_account_account_110503,Provision for Stock,account.data_account_type_asset,110503,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1105
+_account_account_110504,Goods Issued Not Invoiced,account.data_account_type_asset,110504,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1105
+_account_account_110505,Raw Material,account.data_account_type_asset,110505,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1105
+_account_account_110506,WIP,account.data_account_type_asset,110506,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1105
+_account_account_110507,Finished Goods,account.data_account_type_asset,110507,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1105
+_account_account_1109,Other,l10n_my.user_type_view,1109,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_110
+_account_account_110901,Clearing Account,account.data_account_type_asset,110901,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1109
+_account_account_110902,Customer Advance Tax Clearing,account.data_account_type_asset,110902,base.main_company,,Regular,TRUE,FALSE,FALSE,At Date,_account_account_1109
+_account_account_120,Fixed Assets,l10n_my.user_type_view,120,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_10
+_account_account_1201,Motor Vehicles,l10n_my.user_type_view,1201,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_120
+_account_account_120101,Cost - Motor Vehicles,account.data_account_type_asset,120101,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1201
+_account_account_120102,Accd Depn - MV,account.data_account_type_asset,120102,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1201
+_account_account_1202,Furniture & Fittings,account.data_account_type_asset,1202,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_120
+_account_account_120201,Cost - Furniture & Fittings ,account.data_account_type_asset,120201,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1202
+_account_account_120202,Accd Depn - F&F,account.data_account_type_asset,120202,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1202
+_account_account_1203,Office Equipments,l10n_my.user_type_view,1203,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_120
+_account_account_120301,Cost - Office Equipments,account.data_account_type_asset,120301,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1203
+_account_account_120302,Accd Depn - Office Equip,account.data_account_type_asset,120302,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1203
+_account_account_20,Liabilities,l10n_my.user_type_view,20,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_1
+_account_account_210,Current Liabilities,l10n_my.user_type_view,210,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_20
+_account_account_2101,Accounts Payable,l10n_my.user_type_view,2101,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_210
+_account_account_210101,Trade Creditors,account.data_account_type_payable,210101,base.main_company,,Payable,FALSE,FALSE,FALSE,At Date,_account_account_2101
+_account_account_210102,Other Creditors,account.data_account_type_payable,210102,base.main_company,,Payable,FALSE,FALSE,FALSE,At Date,_account_account_2101
+_account_account_2102,Sales Tax Payable,l10n_my.user_type_view,2102,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_210
+_account_account_210201,GST Output Tax (SR),account.data_account_type_liability,210201,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2102
+_account_account_210202,GST Output Tax (ZRL),account.data_account_type_liability,210202,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2102
+_account_account_210203,GST Output Tax (ZRE),account.data_account_type_liability,210203,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2102
+_account_account_210204,GST Output Tax (ES43),account.data_account_type_liability,210204,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2102
+_account_account_210205,GST Output Tax (DS),account.data_account_type_liability,210205,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2102
+_account_account_210206,GST Output Tax (OS),account.data_account_type_liability,210206,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2102
+_account_account_210207,GST Output Tax (ES),account.data_account_type_liability,210207,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2102
+_account_account_210208,GST Output Tax (RS),account.data_account_type_liability,210208,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2102
+_account_account_210209,GST Output Tax (GS),account.data_account_type_liability,210209,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2102
+_account_account_210210,GST Output Tax (AJS),account.data_account_type_liability,210210,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2102
+_account_account_2103,Accrued Liabilities,l10n_my.user_type_view,2103,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_210
+_account_account_210301,Accrued Rent,account.data_account_type_liability,210301,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2103
+_account_account_210302,Accrued Salaries,account.data_account_type_liability,210302,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2103
+_account_account_210303,Accrued Contributions,account.data_account_type_liability,210303,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2103
+_account_account_210304,Accrued Bonus,account.data_account_type_liability,210304,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2103
+_account_account_210305,Accrued Expenses,account.data_account_type_liability,210305,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2103
+_account_account_2104,Income Tax Payable,l10n_my.user_type_view,2104,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_210
+_account_account_210401,Income Tax Payable,account.data_account_type_payable,210401,base.main_company,,Payable,FALSE,FALSE,FALSE,At Date,_account_account_2104
+_account_account_2105,Other Liabilities,l10n_my.user_type_view,2105,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_210
+_account_account_210501,Deferred Taxation,account.data_account_type_liability,210501,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2105
+_account_account_210502,Goods Received Not Invoiced,account.data_account_type_liability,210502,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2105
+_account_account_210503,GST Clearing Account,account.data_account_type_liability,210503,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2105
+_account_account_220,Long Term Liabilities,l10n_my.user_type_view,220,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_20
+_account_account_2201,Long Term Liabilities,l10n_my.user_type_view,2201,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_220
+_account_account_220101,Long Term Loan,account.data_account_type_liability,220101,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_2201
+_account_account_30,Shareholders Equity,l10n_my.user_type_view,30,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_1
+_account_account_310,Shared Capital,l10n_my.user_type_view,310,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_30
+_account_account_3101,Shared Capital,l10n_my.user_type_view,3101,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_310
+_account_account_310101,Shared Capital,account.conf_account_type_equity,310101,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_3101
+_account_account_320,Retained Earnings,l10n_my.user_type_view,320,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_30
+_account_account_3201,Retained Earnings,l10n_my.user_type_view,3201,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_320
+_account_account_320101,Retained Earnings,account.conf_account_type_equity,320101,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_3201
+_account_account_2,Profit and Loss,l10n_my.user_type_view,2,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_0
+_account_account_40,Revenues,l10n_my.user_type_view,40,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_2
+_account_account_410,Sales  ,l10n_my.user_type_view,410,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_40
+_account_account_4101,Sales  ,l10n_my.user_type_view,4101,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_410
+_account_account_410101,Sales ,account.data_account_type_income,410101,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_4101
+_account_account_420,Other Income,l10n_my.user_type_view,420,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_40
+_account_account_4201,Other Income,l10n_my.user_type_view,4201,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_420
+_account_account_420101,Other Income,account.data_account_type_income,420101,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_4201
+_account_account_4202,Financial Income,l10n_my.user_type_view,4202,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_420
+_account_account_420201,Realised Exchange Gain,account.data_account_type_income,420201,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_4202
+_account_account_420202,Unrealised Exchange Gain,account.data_account_type_income,420202,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_4202
+_account_account_420203,Bank Interest Income,account.data_account_type_income,420203,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_4202
+_account_account_50,Cost of Sales,l10n_my.user_type_view,50,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_2
+_account_account_510,Cost of Sales,l10n_my.user_type_view,510,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_50
+_account_account_5101,Cost of Sales ,l10n_my.user_type_view,5101,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_510
+_account_account_510101,Cost of goods sold,account.data_account_type_expense,510101,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5101
+_account_account_510102,Purchase,account.data_account_type_expense,510102,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5101
+_account_account_5102,Direct Labour,l10n_my.user_type_view,5102,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_510
+_account_account_510201,Basic Salaries,account.data_account_type_expense,510201,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5102
+_account_account_510202,EPF,account.data_account_type_expense,510202,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5102
+_account_account_510203,Socso,account.data_account_type_expense,510203,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5102
+_account_account_510204,Bonus,account.data_account_type_expense,510204,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5102
+_account_account_510205,Shift Allowance,account.data_account_type_expense,510205,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5102
+_account_account_510206,Employee Transport,account.data_account_type_expense,510206,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5102
+_account_account_510207,Incentive,account.data_account_type_expense,510207,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5102
+_account_account_5103,Overhead,l10n_my.user_type_view,5103,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_510
+_account_account_510301,Machine Maintenance,account.data_account_type_expense,510301,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5103
+_account_account_510302,Servicing Oil,account.data_account_type_expense,510302,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5103
+_account_account_510303,Cutting Utensils,account.data_account_type_expense,510303,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5103
+_account_account_510304,Vehicle-Upkeep and Maintenance,account.data_account_type_expense,510304,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5103
+_account_account_510305,Equipment Insurance,account.data_account_type_expense,510305,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5103
+_account_account_510306,Seminar,account.data_account_type_expense,510306,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5103
+_account_account_510307,Advertisement,account.data_account_type_expense,510307,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5103
+_account_account_510308,Courier Services Charges,account.data_account_type_expense,510308,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5103
+_account_account_5104,Manufacturing,l10n_my.user_type_view,5104,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_510
+_account_account_510401,Direct Labour Applied,account.data_account_type_expense,510401,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5104
+_account_account_510402,MOH DL Applied,account.data_account_type_expense,510402,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5104
+_account_account_510403,MOH DL Dollar Applied,account.data_account_type_expense,510403,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5104
+_account_account_510404,MOH Machine Hour Applied,account.data_account_type_expense,510404,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5104
+_account_account_510405,MOH Output Applied,account.data_account_type_expense,510405,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_5104
+_account_account_60,Expenses,l10n_my.user_type_view,60,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_2
+_account_account_610,General & Admin Expenses,l10n_my.user_type_view,610,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_60
+_account_account_6101,Human Resource Expenses,l10n_my.user_type_view,6101,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_610
+_account_account_610101,Salaries,account.data_account_type_expense,610101,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6101
+_account_account_610102,SOCSO - Employer,account.data_account_type_expense,610102,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6101
+_account_account_610103,Bonuses,account.data_account_type_expense,610103,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6101
+_account_account_610104,Medical Fees,account.data_account_type_expense,610104,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6101
+_account_account_610106,Staff Allowance,account.data_account_type_expense,610106,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6101
+_account_account_6102,Rental and Lease,l10n_my.user_type_view,6102,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_610
+_account_account_610201,Office Rent,account.data_account_type_expense,610201,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6102
+_account_account_6103,Repair & Maintenance,l10n_my.user_type_view,6103,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_610
+_account_account_610301,Repair & Maint - MV,account.data_account_type_expense,610301,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6103
+_account_account_610302,Repair & Maint - F&F,account.data_account_type_expense,610302,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6103
+_account_account_610303,Repair & Maint - Office Equip,account.data_account_type_expense,610303,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6103
+_account_account_6104,Depreciation Expenses,l10n_my.user_type_view,6104,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_610
+_account_account_610401,Depn - MV,account.data_account_type_expense,610401,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6104
+_account_account_610402,Depn - F&F,account.data_account_type_expense,610402,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6104
+_account_account_610403,Depn - Office Equip,account.data_account_type_expense,610403,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6104
+_account_account_6105,Office Administration ,l10n_my.user_type_view,6105,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_610
+_account_account_610501,General Expenses,account.data_account_type_expense,610501,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6105
+_account_account_610502,Office Supplies,account.data_account_type_expense,610502,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6105
+_account_account_610503,Postage & Stamp,account.data_account_type_expense,610503,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6105
+_account_account_610504,Printing & Stationery,account.data_account_type_expense,610504,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6105
+_account_account_6106,Professional and Consultancy Fees,l10n_my.user_type_view,6106,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_610
+_account_account_610601,Audit Fees,account.data_account_type_expense,610601,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6106
+_account_account_610602,Secretarial Fee,account.data_account_type_expense,610602,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6106
+_account_account_610603,Tax Fee,account.data_account_type_expense,610603,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6106
+_account_account_610604,Other Professional Fees,account.data_account_type_expense,610604,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6106
+_account_account_6107, Tax Expense,l10n_my.user_type_view,6107,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_610
+_account_account_610701,GST Non Claimable (BL)      ,account.data_account_type_expense,610701,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6107
+_account_account_610702,GST Non Claimable - Mix Supply (TXN43)      ,account.data_account_type_expense,610702,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6107
+_account_account_610703,GST Deemed Output Expense ,account.data_account_type_expense,610703,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6107
+_account_account_610704,Penalties Incurred for GST,account.data_account_type_expense,610704,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6107
+_account_account_6109,Other Expenses,l10n_my.user_type_view,6109,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_610
+_account_account_610901,Customer Bad Debt Written Off,account.data_account_type_expense,610901,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6109
+_account_account_610902,Customer Bad Debt Recovered,account.data_account_type_expense,610902,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6109
+_account_account_610903,Supplier Bad Debt Declared,account.data_account_type_expense,610903,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6109
+_account_account_610904,Supplier Bad Debt Paid,account.data_account_type_expense,610904,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6109
+_account_account_610905,Loss / (Gain) on Disposal of FA,account.data_account_type_expense,610905,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6109
+_account_account_610906,Fixed Assets Written Off,account.data_account_type_expense,610906,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6109
+_account_account_610907,Insurance,account.data_account_type_expense,610907,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6109
+_account_account_610908,Water and Electricity,account.data_account_type_expense,610908,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6109
+_account_account_610909,Telephone & Fax,account.data_account_type_expense,610909,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6109
+_account_account_620,Sales & Distribution Expenses,l10n_my.user_type_view,620,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_60
+_account_account_6201,Sales & Distribution Expenses,l10n_my.user_type_view,6201,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_620
+_account_account_620101,Sales Commission,account.data_account_type_expense,620101,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6201
+_account_account_620102,Compensation,account.data_account_type_expense,620102,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6201
+_account_account_620103,Freight Outward Charges,account.data_account_type_expense,620103,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6201
+_account_account_620104,Export Cargo Handling,account.data_account_type_expense,620104,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6201
+_account_account_620105,Transportation,account.data_account_type_expense,620105,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6201
+_account_account_620106,Warehousing Expenses,account.data_account_type_expense,620106,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6201
+_account_account_620107,Store Maintenance,account.data_account_type_expense,620107,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6201
+_account_account_620108,Advertising,account.data_account_type_expense,620108,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6201
+_account_account_620109,Business Promotion,account.data_account_type_expense,620109,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6201
+_account_account_620110,Sample & Gift,account.data_account_type_expense,620110,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6201
+_account_account_620111,Travel & Living,account.data_account_type_expense,620111,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6201
+_account_account_620112,Entertainment,account.data_account_type_expense,620112,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6201
+_account_account_630,Financial Expenses,l10n_my.user_type_view,630,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_60
+_account_account_6301,Financial Expenses,l10n_my.user_type_view,6301,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_630
+_account_account_630101,Bank Charges,account.data_account_type_expense,630101,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6301
+_account_account_630102,Realised Exchange Loss,account.data_account_type_expense,630102,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6301
+_account_account_630103,Unrealised Exchange Loss,account.data_account_type_expense,630103,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6301
+_account_account_630104,Bank Interest,account.data_account_type_expense,630104,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6301
+_account_account_640,Income Tax Expenses,l10n_my.user_type_view,640,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_60
+_account_account_6401,Income Tax Expenses,l10n_my.user_type_view,6401,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_640
+_account_account_640101,Income Tax  ,account.data_account_type_expense,640101,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6401
+my_account.GSTP_tax_account,GST Clearing Account,account.data_account_type_payable,210199,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,
+my_gift_rule.supplier_gift_rule,GST For GIFT,account.data_account_type_payable,6101-007,base.main_company,,Payable,FALSE,FALSE,FALSE,At Date,

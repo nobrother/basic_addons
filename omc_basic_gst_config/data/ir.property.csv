@@ -1,0 +1,23 @@
+id,name,type,fields_id/id,value_text,value_float,value_datetime,value_binary,value_reference,value_integer
+product.property_product_pricelist,property_product_pricelist,Many2One,product.field_res_partner_property_product_pricelist,,0,,,"product.pricelist,1",0
+account.property_account_receivable,property_account_receivable,Many2One,account.field_res_partner_property_account_receivable,,0,,,"account.account,237",0
+account.property_account_payable,property_account_payable,Many2One,account.field_res_partner_property_account_payable,,0,,,"account.account,280",0
+account.property_account_position,property_account_position,Many2One,account.field_res_partner_property_account_position,,0,,,,0
+account.property_account_expense_categ,property_account_expense_categ,Many2One,account.field_product_category_property_account_expense_categ,,0,,,"account.account,330",0
+account.property_account_income_categ,property_account_income_categ,Many2One,account.field_product_category_property_account_income_categ,,0,,,"account.account,319",0
+stock.property_stock_supplier,property_stock_supplier,Many2One,stock.field_res_partner_property_stock_supplier,,0,,,"stock.location,8",0
+stock.property_stock_customer,property_stock_customer,Many2One,stock.field_res_partner_property_stock_customer,,0,,,"stock.location,9",0
+stock.property_stock_procurement,property_stock_procurement,Many2One,stock.field_product_template_property_stock_procurement,,0,,,"stock.location,6",0
+stock.property_stock_inventory,property_stock_inventory,Many2One,stock.field_product_template_property_stock_inventory,,0,,,"stock.location,5",0
+stock.property_stock_production,property_stock_production,Many2One,stock.field_product_template_property_stock_production,,0,,,"stock.location,7",0
+stock_account.default_cost_method,Cost Method Property,Selection,stock_account.field_product_template_cost_method,standard,0,,,,0
+stock_account.default_valuation,Valuation Property,Selection,stock_account.field_product_template_valuation,manual_periodic,0,,,,0
+stock_account.property_stock_journal,property_stock_journal,Many2One,stock_account.field_product_category_property_stock_journal,,0,,,"account.journal,11",0
+stock_account.property_stock_account_output_prd,property_stock_account_output,Many2One,stock_account.field_product_template_property_stock_account_output,,0,,,,0
+stock_account.property_stock_account_input_prd,property_stock_account_input,Many2One,stock_account.field_product_template_property_stock_account_input,,0,,,,0
+stock_account.property_stock_account_output_categ,property_stock_account_output_categ,Many2One,stock_account.field_product_category_property_stock_account_output_categ,,0,,,"account.account, 260",0
+stock_account.property_stock_account_input_categ,property_stock_account_input_categ,Many2One,stock_account.field_product_category_property_stock_account_input_categ,,0,,,"account.account, 303",0
+stock_account.property_stock_valuation_account_id,property_stock_valuation_account_id,Many2One,stock_account.field_product_category_property_stock_valuation_account_id,,0,,,"account.account,257",0
+purchase.property_product_pricelist_purchase,property_product_pricelist_purchase,Many2One,purchase.field_res_partner_property_product_pricelist_purchase,,0,,,"product.pricelist,2",0
+delivery.property_delivery_carrier,property_delivery_carrier,Many2One,delivery.field_res_partner_property_delivery_carrier,,0,,,,0
+sale_journal.property_invoice_type_def,property_invoice_type,Many2One,sale_journal.field_res_partner_property_invoice_type,,0,,,,0
