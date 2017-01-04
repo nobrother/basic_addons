@@ -10,7 +10,6 @@ _account_account_110103,Bank,account.data_account_type_bank,110103,base.main_com
 _account_account_1102,Accounts Receivable,l10n_my.user_type_view,1102,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_110
 _account_account_110201,Trade Debtors,l10n_my.user_type_account_receivable,110201,base.main_company,,Receivable,FALSE,FALSE,FALSE,At Date,_account_account_1102
 _account_account_110202,Other Debtors,l10n_my.user_type_account_receivable,110202,base.main_company,,Receivable,FALSE,FALSE,FALSE,At Date,_account_account_1102
-my_cash_sale.cash_debtor,Cash Debtor,l10n_my.user_type_account_receivable,110203,base.main_company,,Receivable,FALSE,TRUE,FALSE,At Date,_account_account_1102
 _account_account_1103,Purchase Tax Receivable,l10n_my.user_type_view,1103,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_110
 _account_account_110301,GST Input Tax (TX),account.data_account_type_asset,110301,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
 _account_account_110302,GST Input Tax (IM),account.data_account_type_asset,110302,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_1103
@@ -192,5 +191,4 @@ _account_account_630104,Bank Interest,account.data_account_type_expense,630104,b
 _account_account_640,Income Tax Expenses,l10n_my.user_type_view,640,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_60
 _account_account_6401,Income Tax Expenses,l10n_my.user_type_view,6401,base.main_company,,View,FALSE,FALSE,FALSE,At Date,_account_account_640
 _account_account_640101,Income Tax  ,account.data_account_type_expense,640101,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,_account_account_6401
-my_account.GSTP_tax_account,GST Clearing Account,account.data_account_type_payable,210199,base.main_company,,Regular,FALSE,FALSE,FALSE,At Date,
 my_gift_rule.supplier_gift_rule,GST For GIFT,account.data_account_type_payable,6101-007,base.main_company,,Payable,FALSE,FALSE,FALSE,At Date,
