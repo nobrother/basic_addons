@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_omc_basic_forum_config_omc_basic_forum_config,omc_basic_forum_config.omc_basic_forum_config,model_omc_basic_forum_config_omc_basic_forum_config,,1,0,0,0
